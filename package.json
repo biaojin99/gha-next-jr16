@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "NEXT_SKIP_TYPE_CHECKS=1 npx prisma generate && NEXT_SKIP_TYPE_CHECKS=1 next build",
+    "build": "cross-env NEXT_SKIP_TYPE_CHECKS=1 npx prisma generate && cross-env NEXT_SKIP_TYPE_CHECKS=1 next build",
     "start": "next start",
     "test": "jest",
     "test:ci": "jest --ci"
@@ -21,6 +21,7 @@
     "@types/jest-json-schema": "^6.1.4",
     "@types/node": "^20.11.28",
     "@types/react": "^19.0.0",
+    "cross-env": "^7.0.3",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "jest-json-schema": "^6.1.0",
