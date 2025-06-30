@@ -9,10 +9,10 @@ on:
       - 'feat/**' # feat/new feat/new/button
   workflow_dispatch:
   push:
-    branches:
-      - main # main
-      - 'jr16-*' # * wildcards except /
-      - 'feat/**' # ** wildcards, allowing /
+ #   branches:
+ #    - main # main
+ #     - 'jr16-*' # * wildcards except /
+ #    - 'feat/**' # ** wildcards, allowing /
     #paths-ignore:
     #  - '.github/workflows/*'
 jobs:
