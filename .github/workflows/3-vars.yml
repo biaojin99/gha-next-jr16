@@ -1,10 +1,10 @@
 name: Environments
 on:
-  push:
-    branches:
-      - main
-      - dev
-  workflow_dispatch:    
+  # push:
+  #   branches:
+  #     - main
+  #     - dev
+  # workflow_dispatch:    
 env:
   MONGODB_DB_NAME_G: jr16-mongo
   PORT: 80
