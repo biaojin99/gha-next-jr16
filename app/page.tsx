@@ -7,7 +7,7 @@ export default function Page() {
     <>
         <h1 style= {{ textAlign: "center", color: "blue" }}>Nextjs Demo</h1>
         <hr />	
-        <h2 style={{ textAlign: "center", color: "red" }}>Change something here</h2>
+        <h2 style={{ textAlign: "center", color: "red" }}>Hello World</h2>
     </>
   );
 }
